@@ -11,3 +11,14 @@ describe "GET '/'" do
     expect(last_response.body).to include("Hello, World!")
   end
 end
+
+
+# require 'sinatra'
+ 
+# class App < Sinatra::Base
+ 
+#   get '/' do
+#     "Hello, World!"
+#   end
+ 
+# end
